@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "cctv-auto",
+  "version": "1.0",
+  "description": "央视/央视频页面自动全屏 + 开声音 + 精简加载（GeckoView 内置内容脚本）。",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "cctv-auto@mytv.live"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://tv.cctv.com/*",
+        "*://*.cctv.com/*",
+        "*://*.yangshipin.cn/*"
+      ],
+      "js": ["cctv.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}

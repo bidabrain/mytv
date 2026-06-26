@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 取自 icon.png 的央视红，用作自适应图标背景。 -->
+    <color name="ic_launcher_background">#E80318</color>
+</resources>
