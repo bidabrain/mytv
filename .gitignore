@@ -28,6 +28,9 @@ local.properties
 # ---- Claude Code 本地设置（隐私）----
 .claude/
 
+# ---- 个人排查记录（含设备 IP/网络细节，不入库）----
+doc/排查记录-某盒子无法播放央视.md
+
 # ---- 操作系统 ----
 .DS_Store
 Thumbs.db
